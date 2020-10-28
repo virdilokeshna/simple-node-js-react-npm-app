@@ -17,11 +17,11 @@ pipeline {
 
         }*/
         stage('Build') { 
-            tools{
-                node 'nodejs'
+            tools {
+                nodejs 'nodejs'
             }
             steps {
-                sh 'node install' 
+                sh 'nodejs install' 
             }
         }
         }
