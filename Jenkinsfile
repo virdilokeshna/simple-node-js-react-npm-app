@@ -21,7 +21,7 @@ pipeline {
                 nodejs 'nodejs'
             }
             steps {
-                sh 'nodejs install' 
+                sh 'npm install' 
             }
         }
         }
