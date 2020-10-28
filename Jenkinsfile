@@ -7,13 +7,18 @@ pipeline {
 
     }*/
     stages {
-        stage('complie'){
-            tool{
+    
+       /* stage('complie'){
+           
+                tools{
                 node 'nodejs'
+         
             }
 
-        }
+        }*/
         stage('Build') { 
+            tools{
+                node 'nodejs'
             steps {
                 sh 'node install' 
             }
