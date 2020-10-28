@@ -19,9 +19,10 @@ pipeline {
         stage('Build') { 
             tools{
                 node 'nodejs'
+            }
             steps {
                 sh 'node install' 
             }
         }
+        }
     }
-}
