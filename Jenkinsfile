@@ -1,5 +1,8 @@
 pipeline {
 agent any
+tools{
+    node 'nodejs'
+}
 stages{
     stage('build and scan'){
         steps{
