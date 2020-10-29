@@ -1,27 +1,12 @@
 pipeline {
-    agent any 
-     tools {
-                nodejs 'nodejs'
-               
-            }
-    stages {
-   
-        stage('Build') { 
-            steps {
-                sh 'npm install' 
-            }
+agent any
+stages{
+    stage('build and scan'){
+        steps{
+            sh 'npm run build'
+            sh 'npm run sonar'
+
         }
-        stage('Sonarqube') {
-        /* environment { scannerHome = tool 'sonarqube'  }
-    steps {
-        withSonarQubeEnv('sonarqube') {
-            sh "${scannerHome}/bin/sonar-scanner"
-        }
-        timeout(time: 10, unit: 'MINUTES') {
-            waitForQualityGate abortPipeline: true
-        } */
-        sh 'npm run sonar'
     }
 }
-}
-}
+}    
