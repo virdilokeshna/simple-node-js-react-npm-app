@@ -8,7 +8,7 @@ pipeline {
             steps{
                 nodejs('nodejs') {
                 sh 'npm --version'
-                sh 'npm run install'
+                sh 'npm install'
                 // some block
             }
                 
