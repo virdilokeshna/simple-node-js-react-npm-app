@@ -566,11 +566,6 @@
         "signature": "1320ee42b30487cceb6da9f230354fc34826111f76bf12f0ad76c717c12625b0",
         "affectsGlobalScope": false
       },
-      "../node_modules/@types/vfile/index.d.ts": {
-        "version": "6f56706c6828d0299f46f8b1a79ecae0757b91b48e63baf6f0c5292d02037129",
-        "signature": "6f56706c6828d0299f46f8b1a79ecae0757b91b48e63baf6f0c5292d02037129",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@types/yargs-parser/index.d.ts": {
         "version": "e65fca93c26b09681d33dad7b3af32ae42bf0d114d859671ffed30a92691439c",
         "signature": "e65fca93c26b09681d33dad7b3af32ae42bf0d114d859671ffed30a92691439c",
@@ -1310,15 +1305,6 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@types/vfile/index.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/index.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/unist/index.d.ts"
       ],
       "../node_modules/@types/yargs-parser/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -2259,15 +2245,6 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/@types/vfile/index.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/index.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/unist/index.d.ts"
-      ],
       "../node_modules/@types/yargs-parser/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -2574,7 +2551,6 @@
       "../node_modules/@types/stylelint/index.d.ts",
       "../node_modules/@types/stylelint/node_modules/postcss/lib/postcss.d.ts",
       "../node_modules/@types/unist/index.d.ts",
-      "../node_modules/@types/vfile/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
       "../node_modules/source-map/source-map.d.ts",
