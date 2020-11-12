@@ -4,9 +4,9 @@ pipeline {
         nodejs 'nodejs'
     }
     stages{
-        stage('Install Node to Build'){
+        stage('Install NPM'){
             steps{
-                sh 'npm run build'
+                sh 'npm install'
             }
         }
         stage('Build Project'){
