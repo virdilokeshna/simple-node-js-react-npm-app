@@ -6,8 +6,12 @@ pipeline {
     stages{
         stage('Install NPM'){
             steps{
+                nodejs('nodejs') {
                 sh 'npm --version'
                 sh 'npm run install'
+                // some block
+            }
+                
             }
         }
         stage('Build Project'){
